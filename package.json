@@ -1,0 +1,33 @@
+{
+    "name": "@vanioinformatika/npmrc-auth-token-retriever",
+    "version": "0.0.0",
+    "description": "Retrieve auth token from .npmrc file base on provided registry",
+    "contributors": [
+        {
+            "name": "Kovács Vince",
+            "email": "vincekovacs@hotmail.com"
+        }
+    ],
+    "bin": {
+        "retrieve-auth-token": "dist/bin/retrieve-auth-token.js"
+    },
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "mocha --recursive --require ts-node/register src/**/*.spec.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "cli": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/cli": "^0.11.19",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^11.9.5",
+        "chai": "^4.2.0",
+        "mocha": "^6.0.2",
+        "ts-node": "^8.0.2",
+        "tslint": "^5.13.0",
+        "typescript": "^3.3.3333"
+    }
+}
