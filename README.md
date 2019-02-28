@@ -24,7 +24,7 @@ const token = retrieveAuthToken('private-registry.organization.com')
 if (token) {
     // Do something with token
 } else {
-    // Token for given repository not found in .npmrc file
+    // Token not found in .npmrc file
 }
 ```
 
