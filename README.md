@@ -21,9 +21,9 @@ import {retrieveAuthToken} from '@vanioinformatika/npmrc-auth-token-retriever'
 
 const token = retrieveAuthToken('private-registry.organization.com')
 
-if(token){
+if (token) {
     // Do something with token
-}else{
+} else {
     // Token for given repository not found in .npmrc file
 }
 ```
