@@ -16,7 +16,7 @@
         "test": "mocha --recursive --require ts-node/register src/**/*.spec.ts",
         "build": "tsc --build --clean",
         "preversion": "git push && npm run build",
-        "postversion": "git push --tags"
+        "postversion": "git push && git push --tags"
     },
     "dependencies": {
         "cli": "^1.0.1"
