@@ -14,7 +14,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "test": "mocha --recursive --require ts-node/register src/**/*.spec.ts",
-        "build": "tsc --build --clean",
+        "build": "(rm -R dist || exit 0) && tsc",
         "preversion": "git push && npm run build",
         "version": "",
         "postversion": "git push && git push --tags && npm publish"
