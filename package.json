@@ -1,6 +1,6 @@
 {
     "name": "@vanioinformatika/npmrc-auth-token-retriever",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Retrieve auth token from .npmrc file base on provided registry",
     "contributors": [
         {
