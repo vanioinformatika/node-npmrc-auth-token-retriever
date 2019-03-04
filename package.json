@@ -9,7 +9,7 @@
         }
     ],
     "bin": {
-        "retrieve-auth-token": "dist/bin/retrieve-auth-token.js"
+        "retrieve-auth-token.js": "dist/bin/retrieve-auth-token.js"
     },
     "types": "dist/index.d.ts",
     "scripts": {
