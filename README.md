@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vanioinformatika/node-npmrc-auth-token-retriever.svg?branch=master)](https://travis-ci.org/vanioinformatika/node-npmrc-auth-token-retriever)
+
 Search auth token inside `.npmrc` file base on registry URL. 
 
 ## Installation
